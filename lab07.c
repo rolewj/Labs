@@ -14,7 +14,7 @@ int main(int argc, char** argv){
 		arr[i] = (float) rand() / (float) RAND_MAX;
 	}
 	for(i = 0; i < n; i++){
-  	printf("%f ", arr[i]);
+		printf("%f ", arr[i]);
 	}
 	printf("\n");
 	for(i = 0; i < n - 1; i++){
@@ -27,7 +27,7 @@ int main(int argc, char** argv){
 		}
 	}
 	for(i = 0; i < n; i++){
-  	printf("%f ", arr[i]);
+		printf("%f ", arr[i]);
 	}
 	printf("\n");
 	return 0;
