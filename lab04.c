@@ -20,6 +20,6 @@ int main(int argc, char** argv){
 		a = a / 10;
 		i = i - 1;
 	}
-	printf("%d", b, a);
+	printf("%d", b);
 	return 0;
 }
