@@ -6,6 +6,10 @@ int main(int argc, char** argv){
 	scanf("%d %d", &a, &b);
 	a = abs(a);
 	b = abs(b);
+        if (a == 0 && b == 0){
+		printf("Undefined.");
+		return 1;
+	}
 	while (a != b) {
 		if (a > b) {
 			a = a - b;
