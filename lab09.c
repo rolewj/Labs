@@ -2,7 +2,7 @@
 #include "stdlib.h"
 
 int main(int argc, char** argv){
-	int a, a1, b, b1, c, lcm;
+	int a, a1, b, b1, lcm;
 	scanf("%d %d", &a, &b);
 	a = abs(a);
 	b = abs(b);
