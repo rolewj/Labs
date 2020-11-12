@@ -1,11 +1,10 @@
 #include "stdio.h"
 #include "malloc.h"
 #include "string.h"
-#include "math.h"
 
 typedef struct{
 	char* string;
-	char size;
+	unsigned int size;
 } String;
 
 String construct (char* in, unsigned int size){
