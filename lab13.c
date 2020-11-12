@@ -22,9 +22,9 @@ void destruct(String s){
 void addN(String* s, char* in, unsigned int size){
 	int rSize = strlen(s->string) + size;
 	if (s->size <= rSize){
-		while (s->size <= rSize){
-			s->size *= 2;
-		}
+		do{
+  		s->size *= 2;
+		} while (s->size <= rSize);
 		s->string = (char*)realloc(s->string, s->size);
 	}
 	strcat(s->string, in);
