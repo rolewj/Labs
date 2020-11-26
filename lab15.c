@@ -55,7 +55,7 @@ void printList(List* head){
 }
 
 void freeList(List* head){
-	while(head != NULL) {
+	while(head != NULL){
 		List* n = head; // запоминает текущий элемент
 		head = head -> next;
 		free(n);
